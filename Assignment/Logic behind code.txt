@@ -1,0 +1,10 @@
+Logic Behind the code:-
+
+1.)for the first function i.e Function to Read data from JSON file and display it in the console.
+for this i had created two function called readUserData() and readProductData(),both of which takes one argument called objectData which is JSON object.inside those function, i used for/in loop to iterate inside the array.
+
+2.)for second function i.e Function to find a particular entry from JSON store using a name or id (whatever field you want).
+for this, i had created one function called findData() which takes two arguments i.e one objectData (which is JSON object) and string(name of the television model that is to be searched in JSON). Inside the function, i used for/in the loop to iterate inside television array to search for the model name and to give the output.
+
+3.)for third function i.e  Function to find a particular entry by its position/index (index in the array). 
+for this, i had created one function called findByIndex() which again takes two arguments i.e one JSON object and another index which is a numeric value.inside the function, first of all, i used for/in loop in order to traverse through all the mobile phones array of different brands like Apple, Samsung, Motorola. and at each iteration, I used console.log() function to print the data at index 1 of the array.  
